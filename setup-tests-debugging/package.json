@@ -1,0 +1,15 @@
+{
+  "name": "setup-tests-debugging",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/service.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:debug": "node --inspect --watch --test test/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
